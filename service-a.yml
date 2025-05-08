@@ -10,5 +10,5 @@ spring:
 
 service:
   name: Service A
-  timeout: 5000
+  timeout: 3000
   retry-attempts: 3
