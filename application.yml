@@ -1,0 +1,2 @@
+common.property: common-value
+logging.level.root: INFO
