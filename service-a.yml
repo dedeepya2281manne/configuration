@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/service_a_db
+    username: service_a_user
+    password: service_a_pass
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+service:
+  name: Service A
+  timeout: 5000
+  retry-attempts: 3

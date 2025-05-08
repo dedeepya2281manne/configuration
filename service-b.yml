@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/service_b_db
+    username: service_b_user
+    password: service_b_pass
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+
+service:
+  name: Service B
+  timeout: 7000
+  cache-enabled: true
